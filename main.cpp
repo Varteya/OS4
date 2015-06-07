@@ -13,6 +13,7 @@ int read_from_pipe (int file)
     return c;
 }
 
+
 void write_to_pipe (int file, int  counter)
 {
     FILE *stream;
